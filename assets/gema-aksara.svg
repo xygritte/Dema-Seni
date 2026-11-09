@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 520" role="img" aria-labelledby="title desc">
+<title id="title">Ilustrasi 2D Gema Aksara</title>
+<desc id="desc">Buku terbuka, pena tinta, gulungan kisah, bintang dan dedaunan berwarna navy, emas, dan terracotta.</desc>
+<defs>
+ <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#FFFDF6"/><stop offset="1" stop-color="#F5E5C7"/></linearGradient>
+ <linearGradient id="ink" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1B3552"/><stop offset="1" stop-color="#0E223B"/></linearGradient>
+</defs>
+<circle cx="524" cy="142" r="53" fill="#C25426"/>
+<path d="M502 95c20-10 49-4 61 8" fill="none" stroke="#E8A15E" stroke-width="8" stroke-linecap="round"/>
+<path d="M95 346c-23-25-39-65-30-107M86 308c-38-13-41-34-37-45M78 276c-30-24-22-44-16-52M101 335c9-34 26-45 40-46M88 304c6-34 24-46 34-50" fill="none" stroke="#132943" stroke-width="7" stroke-linecap="round"/>
+<path d="M67 288c-26-21-37-19-48-13 9 21 22 29 48 13ZM62 251c-18-26-17-41-7-52 18 12 22 31 7 52ZM103 335c7-30 26-38 43-35-2 20-14 32-43 35Z" fill="#C8A364" stroke="#132943" stroke-width="3"/>
+<path d="M584 353c28-38 43-80 42-133M604 296c-31-8-35-25-35-43M618 251c28-22 33-40 28-53M591 331c-21-22-43-25-58-24" fill="none" stroke="#132943" stroke-width="7" stroke-linecap="round"/>
+<path d="M615 259c24-9 39-27 40-47-25 3-37 17-40 47ZM602 288c-27-21-40-21-52-15 13 18 29 26 52 15ZM586 328c-19-22-40-22-53-14 12 17 29 23 53 14Z" fill="#DCA85C" stroke="#132943" stroke-width="3"/>
+<path d="M326 132c57 7 82 39 104 80l44 77c22 30 36 33 55 26-31 36-67 24-90-2-25-30-25-58-54-76-31-18-66-25-85-25" fill="#F7E5C3" stroke="#B77B32" stroke-width="5"/>
+<path d="M334 152c70 23 76 62 112 109" fill="none" stroke="#D0AB6F" stroke-width="3" stroke-dasharray="8 12"/>
+<path d="M370 140c20-32 34-63 24-100M397 105c23-22 49-17 63-8M379 81c-18-21-43-19-55-10" fill="none" stroke="#10243E" stroke-width="8" stroke-linecap="round"/>
+<path d="M330 240c22-24 42-42 40-67 31 13 23 48 4 63-29 22-39 41-21 58 15 13 39 4 47-8-1 35-33 46-56 31-40-25-37-51-14-77Z" fill="#10243E"/>
+<path d="M348 249c31 2 43-15 34-29" fill="none" stroke="#DCA85C" stroke-width="5" stroke-linecap="round"/>
+<!-- book shadow and central fold -->
+<ellipse cx="342" cy="428" rx="259" ry="30" fill="#12253C" opacity=".12"/>
+<path d="M84 410l25-30 185-3 45 21 45-21 184 2 24 31-220 42-29-14-28 14Z" fill="#10243E" stroke="#10243E" stroke-width="7" stroke-linejoin="round"/>
+<path d="M101 389c77-27 150-39 237 13 75-47 158-44 242-13l-13 39c-80-29-158-31-229 12-81-43-154-40-233-12Z" fill="#F4DBA9" stroke="#10243E" stroke-width="6" stroke-linejoin="round"/>
+<path d="M101 372c95-39 170-35 237 14 72-50 153-54 242-15l-13 39c-86-27-158-33-229 10-74-46-157-44-230-9Z" fill="url(#paper)" stroke="#10243E" stroke-width="7" stroke-linejoin="round"/>
+<path d="M339 389v38M122 389c78-24 137-21 190 9M125 402c75-17 133-14 180 10M548 387c-77-24-134-19-185 11M548 400c-76-16-131-12-182 11" fill="none" stroke="#C59A5C" stroke-width="3.8" stroke-linecap="round"/>
+<!-- fountain pen -->
+<g transform="rotate(-31 220 244)">
+ <rect x="204" y="101" width="38" height="185" rx="18" fill="url(#ink)" stroke="#10243E" stroke-width="6"/>
+ <path d="M209 119h27M209 132h27M206 262h34" stroke="#C8A364" stroke-width="7"/>
+ <path d="M203 280h42l-21 62Z" fill="#EAC278" stroke="#10243E" stroke-width="6" stroke-linejoin="round"/>
+ <path d="M224 299v31" stroke="#10243E" stroke-width="4"/>
+ <circle cx="224" cy="294" r="5" fill="#10243E"/>
+</g>
+<!-- parchment floating -->
+<path d="M96 136l110 22-18 86-110-20Z" fill="#FFF9E8" stroke="#C49A5F" stroke-width="4"/>
+<path d="M111 165l68 14M107 182l61 12M103 198l52 11" stroke="#D0A45F" stroke-width="4" stroke-linecap="round"/>
+<path d="M455 65l51-22 22 49-48 25Z" fill="#FFF9E8" stroke="#C49A5F" stroke-width="4"/>
+<path d="M472 76l28-12M478 91l28-12" stroke="#D0A45F" stroke-width="3" stroke-linecap="round"/>
+<!-- starbursts -->
+<path d="M108 80l6 18 18 6-18 6-6 18-6-18-18-6 18-6ZM579 172l6 18 18 6-18 6-6 18-6-18-18-6 18-6ZM470 339l5 14 14 5-14 5-5 14-5-14-14-5 14-5Z" fill="#C79B4A"/>
+<path d="M297 64l4 12 12 4-12 4-4 12-4-12-12-4 12-4ZM181 70l3 9 9 3-9 3-3 9-3-9-9-3 9-3Z" fill="#C25426"/>
+<circle cx="562" cy="80" r="5" fill="#C8A364"/><circle cx="146" cy="286" r="5" fill="#C25426"/><circle cx="533" cy="256" r="4" fill="#C8A364"/>
+</svg>
