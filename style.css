@@ -12,6 +12,7 @@
   --gold:#c8a364;
   --gold-pale:#ead5a8;
   --muted:#5b6775;
+  --primary:#c25426;
   --line:#dfcfb2;
   --shadow:0 14px 35px rgba(16,36,62,.075);
   --serif:"Bodoni Moda","Playfair Display",Georgia,serif;
@@ -85,7 +86,7 @@ ul{margin:0;padding:0}
 .hero-title{font:800 clamp(3.55rem,14vw,6.95rem)/.98 var(--serif);letter-spacing:-.07em;margin-top:19px;text-transform:uppercase;max-width:750px}
 .hero-title span{display:block}
 .hero-title .highlight{color:var(--rust)}
-.hero-tagline{margin-top:18px;font-size:.99rem;font-weight:800;letter-spacing:.075em;text-transform:uppercase}
+.hero-tagline{color:var(--rust);margin-top:18px;font-size:.99rem;font-weight:800;letter-spacing:.075em;text-transform:uppercase}
 .hero-desc{max-width:560px;color:#445367;margin-top:15px;font-size:.96rem}
 .hero-art{position:relative;max-width:560px;margin:0 auto}
 .hero-art::before{content:"";position:absolute;inset:13% 7% 10%;border:1.5px dashed var(--gold);border-radius:48%;transform:rotate(8deg)}
@@ -146,6 +147,7 @@ ul{margin:0;padding:0}
 .about-mark::before{top:-95px;right:-80px}.about-mark::after{bottom:-95px;left:-80px}
 .about-mark span{position:relative;z-index:1;font:700 clamp(4rem,18vw,7rem)/1 var(--serif);color:var(--navy);letter-spacing:-.08em}
 .about-mark small{display:block;text-transform:uppercase;letter-spacing:.15em;font-weight:800;color:var(--rust);font-size:.72rem}
+.about-title{font:700 clamp(2.1rem,8vw,3.3rem)/1.18 var(--serif);margin-top:8px}.about-title span{color:var(--rust)}
 .about-copy p{margin-top:14px;color:var(--muted)}
 .footer{background:#0b1b30;color:#fff;padding:48px 0 20px}
 .footer-grid,.footer-inner{display:grid;gap:28px}
