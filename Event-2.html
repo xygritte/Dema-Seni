@@ -6,25 +6,34 @@
 <title>Festival Budaya Nusantara 2024 — DEMA Divisi Kesenian</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@600;700;800&family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <!-- NAVBAR -->
-<header class="navbar">
-  <div class="nav-inner">
-    <a href="index.html" class="brand">
-      <span class="brand-mark">◈</span>
-      <span class="brand-text">DEMA <small>Divisi Kesenian</small></span>
+<header class="site-header">
+  <div class="header-inner">
+    <a href="index.html" class="site-brand" aria-label="Kembali ke beranda">
+      <span class="brand-icon" aria-hidden="true">✦</span>
+      <span class="brand-title">DEMA KESENIAN<small>UNIDA GONTOR</small></span>
     </a>
-    <nav class="nav-links">
-      <a href="index.html#terbaru">Event Terbaru</a>
-      <a href="index.html#akan-datang">Akan Datang</a>
-      <a href="index.html#terlaksana">Terlaksana</a>
-      <a href="index.html#profil">Profil</a>
-      <a href="index.html#karya">Hasil Karya</a>
+    <nav class="nav-desktop" aria-label="Navigasi utama">
+      <a href="index.html#beranda">Beranda</a>
+      <a href="index.html#lomba">Perlombaan</a>
+      <a href="index.html#jadwal">Jadwal</a>
+      <a href="index.html#hadiah">Hadiah</a>
+      <a href="index.html#profil">Tentang Kami</a>
     </nav>
+    <details class="mobile-nav">
+      <summary aria-label="Buka menu navigasi">Menu <span aria-hidden="true">☰</span></summary>
+      <nav aria-label="Navigasi seluler">
+        <a href="index.html">Beranda</a>
+        <a href="index.html#lomba">Perlombaan</a>
+        <a href="index.html#jadwal">Jadwal</a>
+        <a href="index.html#hadiah">Hadiah</a>
+      </nav>
+    </details>
   </div>
 </header>
 
@@ -53,7 +62,7 @@
   <div class="container">
     <div class="article-grid">
       <div class="article-body">
-        <h2Tentang Event</h2>
+        <h2>Tentang Event</h2>
         <p>Festival Budaya Nusantara 2024 sukses digelar sebagai ajang perayaan keberagaman budaya Indonesia di lingkungan kampus. Kegiatan ini melibatkan puluhan komunitas seni dan budaya dari berbagai daerah.</p>
         <p>Selama satu hari penuh, pengunjung disuguhi beragam pertunjukan dan pameran yang menampilkan kekayaan budaya nusantara — dari Sabang hingga Merauke.</p>
 
@@ -105,31 +114,12 @@
 <!-- FOOTER -->
 <footer class="footer">
   <div class="container">
-    <div class="footer-inner">
-      <div>
-        <div class="footer-brand"><span class="brand-mark">◈</span><strong>DEMA Divisi Kesenian</strong></div>
-        <p>Wadah kreativitas mahasiswa untuk berkarya, berekspresi, dan berkolaborasi di bidang seni dan budaya.</p>
-      </div>
-      <div>
-        <h4>Navigasi</h4>
-        <ul>
-          <li><a href="index.html#terbaru">Event Terbaru</a></li>
-          <li><a href="index.html#akan-datang">Akan Datang</a></li>
-          <li><a href="index.html#terlaksana">Terlaksana</a></li>
-          <li><a href="index.html#profil">Profil</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4>Kontak</h4>
-        <ul>
-          <li><a href="mailto:kesenian@dema.ac.id">kesenian@dema.ac.id</a></li>
-          <li><a href="#">Instagram</a></li>
-          <li><a href="#">YouTube</a></li>
-          <li><a href="#">TikTok</a></li>
-        </ul>
-      </div>
+    <div class="footer-grid">
+      <div><div class="footer-brand"><span class="brand-icon" aria-hidden="true">✦</span><strong>DEMA Divisi Kesenian<br>UNIDA Gontor</strong></div><p>Ruang kreativitas, karya, dan apresiasi seni.</p></div>
+      <div><h4>Jelajahi</h4><ul><li><a href="index.html">Beranda</a></li><li><a href="index.html#lomba">Perlombaan</a></li><li><a href="index.html#jadwal">Jadwal</a></li></ul></div>
+      <div><h4>Informasi</h4><ul><li><a href="index.html#daftar">Pendaftaran Gema Aksara</a></li><li><a href="Event-1.html">Detail Gema Aksara</a></li></ul></div>
     </div>
-    <div class="footer-bottom">© 2025 DEMA Divisi Kesenian. Seluruh hak cipta dilindungi.</div>
+    <div class="footer-bottom">© 2026 DEMA Divisi Kesenian · Universitas Darussalam Gontor</div>
   </div>
 </footer>
 
